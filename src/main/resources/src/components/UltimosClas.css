@@ -1,0 +1,40 @@
+.UltimosClas {
+    background-color: #eee;
+    height: 60vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+}
+
+.UltimosClas-container {
+    background-color: #fff;
+    height: 58vw;
+    width: 90vw;
+    border: 1.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UltimosClas-leftside {
+    background-color: cornflowerblue;
+    height: 58vw;
+    width: 45vw;
+}
+
+.UltimosClas-leftside-bloco-1{
+    background-color: blueviolet;
+    height: 28vw;
+    width: 43vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.UltimosClas-rightside {
+    background-color: aqua;
+    height: 58vw;
+    width: 45vw;
+}

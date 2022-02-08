@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cadastrar.css';
+import { Link } from 'react-router-dom';
 
 function Cadastrar() {
     return (
@@ -14,11 +15,13 @@ function Cadastrar() {
                     </div>
                   </div>
 
-                  <div className='cadastrar-container-button'>
-                        <div className='cadastrar-button'> 
-                            <p className='cadastrar-button-txt'>CADASTRAR</p>
-                        </div>
-                  </div>
+                  <Link to='/signin' className='cadastrar-links'>
+                    <div className='cadastrar-container-button'>
+                          <div className='cadastrar-button'> 
+                              <p className='cadastrar-button-txt'>CADASTRAR</p>
+                          </div>
+                    </div>
+                  </Link>
 
               </div>
           </div>

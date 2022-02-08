@@ -28,32 +28,32 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'>
-                      <Link to='/' className='nav-links'>
+                      <Link to='/noticias' className='nav-links'>
                         NOTÍCIAS
                       </Link>
                     </li>
 
                     <li className='nav-item'>
-                      <Link to='/' className='nav-links'>
+                      <Link to='/vagas' className='nav-links'>
                         VAGAS
                       </Link>
                     </li>
 
                     <li className='nav-item'>
-                      <Link to='/' className='nav-links'>
+                      <Link to='/classificados' className='nav-links'>
                         CLASSIFICADOS
                       </Link>
                     </li>
 
                     <li className='nav-item'>
-                      <Link to='/' className='nav-links'>
+                      <Link to='/projetos' className='nav-links'>
                         PROJETOS
                       </Link>
                     </li>
 
                   </ul>
 
-                    <Link to="/">
+                    <Link to="/login">
                       <div className='nav-logBut'>
                         <div className='nav-log-icon'></div>
                         {/* <img className='pri' src={userLoginIcon} alt="Login" />

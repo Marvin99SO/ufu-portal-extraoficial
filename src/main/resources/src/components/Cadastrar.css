@@ -44,6 +44,12 @@
     /* text-indent: 2vw; */
 }
 
+.cadastrar-links {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
 .cadastrar-container-button {
     /* background-color: darkblue; */
     height: 100%;
@@ -59,7 +65,7 @@
     width: 19.5vw;
     height: 5vw;
     margin-right: 5vw;
-    margin-top: 4.5vw;
+    /* margin-top: 4.5vw; */
     float: right;
     /* text-align: center;
     justify-self: center;

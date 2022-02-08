@@ -57,11 +57,11 @@ function Footer() {
                 <div className='footer-rightside-acesso-container'>
                     <div className='footer-rightside-acesso'>
                         <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-home'>Home</p></Link>
-                        <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-news'>Notícias</p></Link>
-                        <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-vagas'>Vagas</p></Link>
-                        <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-clas'>Classificados</p></Link>
-                        <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-projs'>Projetos</p></Link>
-                        <Link to='/' className='footer-rightside-links'><p className='footer-rightside-links-login'>Login</p></Link>
+                        <Link to='/noticias' className='footer-rightside-links'><p className='footer-rightside-links-news'>Notícias</p></Link>
+                        <Link to='/vagas' className='footer-rightside-links'><p className='footer-rightside-links-vagas'>Vagas</p></Link>
+                        <Link to='/classificados' className='footer-rightside-links'><p className='footer-rightside-links-clas'>Classificados</p></Link>
+                        <Link to='/projetos' className='footer-rightside-links'><p className='footer-rightside-links-projs'>Projetos</p></Link>
+                        <Link to='/login' className='footer-rightside-links'><p className='footer-rightside-links-login'>Login</p></Link>
                     </div>
                 </div>
 

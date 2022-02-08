@@ -9,7 +9,7 @@ function Labels() {
               <div className='labels-container'>
                   <ul className='labels-menu'>
                       <li className='labels-item'>
-                        <Link to='/' className='labels-link'>
+                        <Link to='/noticias' className='labels-link'>
                             <div className='labels-div-img-news'>
                               {/* <img src={noticiasImg} alt='notícias' className='labels-img-noticias' /> */}
                               {/* <img src={noticiasImgSelec} alt='notícias' className='labels-img-noticias2' /> */}
@@ -22,7 +22,7 @@ function Labels() {
                       </li>
 
                       <li className='labels-item'>
-                        <Link to='/' className='labels-link'>
+                        <Link to='/vagas' className='labels-link'>
                         <div className='labels-div-img-vagas'></div>
                             {/* <img src={vagasImg} alt='vagas' className='labels-img-noticias' /> */}
                             <p className='labels-title'>VAGAS</p>
@@ -32,7 +32,7 @@ function Labels() {
                       </li>
 
                       <li className='labels-item'>
-                        <Link to='/' className='labels-link'>
+                        <Link to='/classificados' className='labels-link'>
                         <div className='labels-div-img-clas'></div>
                             {/* <img src={classifImg} alt='classificados' className='labels-img-noticias' /> */}
                             <p className='labels-title'>CLASSIFICADOS</p>
@@ -42,7 +42,7 @@ function Labels() {
                       </li>
 
                       <li className='labels-item'>
-                        <Link to='/' className='labels-link'>
+                        <Link to='/projetos' className='labels-link'>
                         <div className='labels-div-img-proj'></div>
                             {/* <img src={projImg} alt='projetos' className='labels-img-noticias' /> */}
                             <p className='labels-title'>PROJETOS</p>
