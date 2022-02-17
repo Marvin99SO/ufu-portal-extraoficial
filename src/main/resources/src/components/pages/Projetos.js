@@ -1,5 +1,10 @@
 import React from 'react';
+import UltimosProjs from '../UltimosProjs';
 
-export default function Services() {
-  return <h1 className='services'>PROJETOS</h1>;
+export default function Projetos() {
+  return (
+    <>
+      <UltimosProjs />
+    </>
+  );
 }

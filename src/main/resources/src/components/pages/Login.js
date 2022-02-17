@@ -1,5 +1,10 @@
 import React from 'react';
+import CaixaLogin from '../CaixaLogin';
 
-export default function Services() {
-  return <h1 className='services'>LOGIN</h1>;
+export default function Login() {
+  return (
+    <>
+        <CaixaLogin />
+    </>
+  );
 }

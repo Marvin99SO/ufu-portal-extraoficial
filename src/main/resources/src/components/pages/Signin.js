@@ -1,5 +1,10 @@
 import React from 'react';
+import CaixaCadastro from '../CaixaCadastro';
 
-export default function Services() {
-  return <h1 className='services'>CADASTRAR</h1>;
+export default function Cadastrar() {
+  return (
+    <>
+      <CaixaCadastro />
+    </>
+  );
 }

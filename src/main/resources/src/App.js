@@ -15,6 +15,8 @@ import Classificados from "./components/pages/Classificados";
 import Projetos from "./components/pages/Projetos";
 import Login from "./components/pages/Login";
 import Signin from "./components/pages/Signin";
+import RecuperarSenha from "./components/pages/RecuperarSenha";
+import PainelUser from "./components/pages/PainelDoUsuario";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route exact path='/projetos' element={<Projetos />} />
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/signin' element={<Signin />} />
+          <Route exact path='/recuperarsenha' element={<RecuperarSenha />} />
+          <Route exact path='/paineluser' element={<PainelUser />} />
         </Routes>
         <Footer />
         <FooterBottom />
