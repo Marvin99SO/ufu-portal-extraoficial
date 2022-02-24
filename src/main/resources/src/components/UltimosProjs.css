@@ -88,7 +88,7 @@ b {
     font-weight: 300;
     margin-top: 0;
     text-align: start;
-    justify-content: start;
+    justify-content: flex-start;
     justify-items: center;
     /* align-items: center; */
     display: flex;

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import logoIcon from '../images/novo_logo.svg';
-import userLoginIcon from '../images/header-user.svg';
-import userLoginimageselected from '../images/header-user-selected.svg'; 
+// import userLoginIcon from '../images/header-user.svg';
+// import userLoginimageselected from '../images/header-user-selected.svg'; 
 import './Navbar.css';
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
           <nav className="navbar">
               <div className="navbar-container">
                   
-                  <Link to="/" className="navbar-logo">
+                  <Link to="/paineladmin" className="navbar-logo">
                     <div className='navbar-logo-img-container'>
                         {/* <figure> */}
                             <img src={logoIcon} alt="Logo do Portal UFU" className='navbar-logo-img' />

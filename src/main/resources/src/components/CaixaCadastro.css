@@ -42,7 +42,7 @@
 }
 
 .caixacadastro-hero {
-  height: 25vw;
+  height: 55vw;
   width: 45vw;
   /* background-color: darkgoldenrod; */
 }
@@ -108,6 +108,12 @@
   font-size: calc(0.2rem + 1vw);
 }
 
+.caixacadastro-usuario {
+  width: 45vw;
+  height: 7.5vw;
+  margin-top: -0.5vw;
+}
+
 .caixacadastro-usuario-title-fig {
   height: 2vw;
   width: 2vw;
@@ -120,12 +126,6 @@
   position: relative;
   margin-left: 7.5vw;
   margin-top: 2vw;
-}
-
-.caixacadastro-usuario {
-  width: 45vw;
-  height: 7.5vw;
-  margin-top: -0.5vw;
 }
 
 .caixacadastro-email-title-fig {

@@ -119,13 +119,6 @@ function CaixaCadastro() {
                             <input type="radio" name="radio"/>
                             <span class="checkmark"></span>
                         </label>
-                        
-                        {/* <select>
-                            <option value="0">Selecione sua Categoria:</option>
-                            <option value="1">Estudante</option>
-                            <option value="2">Professor</option>
-                            <option value="3">Outro</option>
-                        </select> */}
                     </div>
 
                     <div className='caixacadastro-butlogin-container'>
