@@ -6,6 +6,7 @@
   align-items: center;
   position: sticky;
   z-index: 999;
+  animation: fadein .5s;
 }
 
 .caixacadastro-container {

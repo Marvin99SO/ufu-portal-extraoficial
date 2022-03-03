@@ -27,7 +27,7 @@ function PainelUser() {
                         <p className='paineluser-bloco1-p'>Postar Vaga</p>
                       </div>
                     </Link>
-                    <Link to='/' className='paineluser-bloco-links'>
+                    <Link to='/postarclas' className='paineluser-bloco-links'>
                       <div className='paineluser-bloco1'>
                        <div className='paineluser-bloco3-img'></div>
                         <p className='paineluser-bloco1-p'>Postar Classificado</p>
@@ -39,7 +39,7 @@ function PainelUser() {
                    {/* LINHA 2  */}
 
                   <div className='paineluser-opcoescontainer-linha1'>
-                    <Link to='/' className='paineluser-bloco-links'>
+                    <Link to='/postarproj' className='paineluser-bloco-links'>
                       <div className='paineluser-bloco1'>
                         <div className='paineluser-bloco4-img'></div>
                         <p className='paineluser-bloco1-p'>Postar Projeto</p>

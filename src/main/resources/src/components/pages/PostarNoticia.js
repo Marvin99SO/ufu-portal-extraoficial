@@ -1,10 +1,10 @@
 import React from 'react';
-import PostarNoticia from '../CaixaPostarNoticia';
+import CaixaPostarNoticia from '../CaixaPostarNoticia';
 
-export default function Projetos() {
+export default function PostarNoticia() {
   return (
     <>
-      <PostarNoticia />
+      <CaixaPostarNoticia />
     </>
   );
 }

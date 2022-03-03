@@ -1,10 +1,10 @@
 import React from 'react'
-import CaixaRecupSenha from '../CaixaRecupSenha';
+import CaixaRemovConteudo from '../CaixaRemovConteudo';
 
 export default function RecuperarSenha() {
     return (
       <>
-          <CaixaRecupSenha />
+          <CaixaRemovConteudo />
       </>
     );
   }

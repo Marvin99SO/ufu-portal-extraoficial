@@ -20,7 +20,15 @@ import PainelUser from "./components/pages/PainelDoUsuario";
 import PainelAdmin from "./components/pages/PainelDoAdministrador";
 import EditarInformacoes from "./components/pages/EditarInformacoes";
 import PostarNoticia from "./components/pages/PostarNoticia";
-// import PostarVaga from "./components/pages/PostarVaga";
+import PostarVaga from "./components/pages/PostarVaga";
+import PostarClas from "./components/pages/PostarClas";
+import PostarProj from "./components/pages/PostarProjeto";
+import RemoverUsuarios from "./components/pages/RemoverUsuarios";
+import RemoverConteudo from "./components/pages/RemoverConteudo";
+import LerNoticia from "./components/pages/LerNoticia";
+import LerVagas from "./components/pages/LerVagas";
+import LerClassificado from "./components/pages/LerClassificado";
+import LerProjeto from "./components/pages/LerProjeto";
 
 function App() {
   return (
@@ -41,7 +49,15 @@ function App() {
           <Route exact path='/paineladmin' element={<PainelAdmin />} />
           <Route exact path='/editarinfos' element={<EditarInformacoes />} />
           <Route exact path='/postarnoticia' element={<PostarNoticia />} />
-          {/* <Route exact path='/postarvaga' element={<PostarVaga />} /> */}
+          <Route exact path='/postarvaga' element={<PostarVaga />} />
+          <Route exact path='/postarclas' element={<PostarClas />} />
+          <Route exact path='/postarproj' element={<PostarProj />} />
+          <Route exact path='/removerusuarios' element={<RemoverUsuarios />} />
+          <Route exact path='/removerconteudo' element={<RemoverConteudo />} />
+          <Route exact path='/lernoticia' element={<LerNoticia />} />
+          <Route exact path='/lervagas' element={<LerVagas />} />
+          <Route exact path='/lerclassificado' element={<LerClassificado />} />
+          <Route exact path='/lerprojeto' element={<LerProjeto />} />
         </Routes>
         <Footer />
         <FooterBottom />
