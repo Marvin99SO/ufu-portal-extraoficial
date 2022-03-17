@@ -1,12 +1,8 @@
-// import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Linkbar from "./components/Linkbar";
 import Footer from "./components/Footer";
-// import Hero from "./components/Hero";
-// import Cadastrar from "./components/Cadastrar";
-// import Labels from "./components/Labels";
 import FooterBottom from "./components/FooterBottom";
 import Home from "./components/pages/Home";
 import Noticias from "./components/pages/Noticias";
